@@ -1,0 +1,22 @@
+header{
+    display:flex;
+
+}
+#logo {
+    display: flex;
+}
+#logo img{
+    height: 40px;
+    width: auto;
+}
+
+#navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: left;
+    place-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin: 30px;
+}
