@@ -1,22 +1,177 @@
 header{
     display:flex;
-
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
+h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  margin-top: 8px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;  
+  font-size: 10px;
+}
+
+  
 #logo {
     display: flex;
+    width: 50%;
+    margin-right: 30px;
 }
 #logo img{
-    height: 40px;
+    height: 50px;
     width: auto;
+    margin: 10px;
+
 }
 
 #navContainer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: left;
+    justify-content: right;
+    /* /* justify-content: right; */
+    /* align-content: right;
     place-content: space-between;
-    align-items: center;
-    padding:10px;
-    margin: 30px;
+    /* padding:10px; */
+    width: 60%;
+    margin: 20px; 
+    align-items: right;
+    align-content: flex-end;
+}
+nav img {
+  padding: 1px;
+}
+#subtitles h3{
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 40px;
+}
+#subtitles h4{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display:inline;
+  font-size: 15px;
+}
+#printIcon{
+  float: right;
+  margin-right: 2em;
+}
+
+#subtitles{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+article{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+#paragraphs{
+  font-family: 'Nanum Myeongjo', serif;
+  margin-top: 30px;
+  line-height: 25px;
+  color: rgb(43, 41, 41);
+  width: 70%;
+}
+#recipe{
+  width: 70%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#recipeWords{
+  font-family: 'Shadows Into Light Two', cursive;
+  position: absolute;
+  display: flex;
+  top: 10px;
+  justify-content: space-evenly;
+  font-size: 23px;
+  line-height: 30px;
+  color:rgb(43, 41, 41);
+}
+#column1{
+  margin-left: 50px;
+  margin-top: 28px;
+}
+#column2{
+  margin-left: 150px;
+  margin-top: 28px;
+
+}
+.big{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15px;
+  background-color: lightgrey;
+}
+hr{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
+#preFooter{
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#author h3{
+  font-family: serif;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  color: rgb(82, 77, 77);
+}
+#author p{
+  margin-left: 10px;
+  color: rgb(82, 77, 77);
+}
+#author {
+    display: flex;
+    width: 60%;
+    height: 50px;
+    margin: 10px;
+    line-height: 20px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    margin: 20px; 
+    margin-left: auto;
+    align-items: right;
+    height: 50px;
+    padding-top: 12px;
+    font-size: large;
+    background-color: rgba(194, 96, 35, 0.86);
+    color: white;
+
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: darkgray;
+}
+#foot{
+  margin-bottom: 15px;
 }

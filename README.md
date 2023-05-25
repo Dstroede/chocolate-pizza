@@ -10,23 +10,16 @@ Learn more about JavaScript/CSS/ and HTML
 
 ## Build Status
 
-Pending...
+Complete
 
 
 ## Tech/Framework Used
 
 HTML, CSS
 
-## Features
-
-Accessibility score 100
-![Accessibility Score](img/)
-
-## How to use?
-You can navigate the website by click on the different Nav elements at the top of the page
-
 ## Credits
 
+Credit to Vanessa Stevenson for coming up with an amazing recipe!
 
 ## License
 MIT © Drew Stroede
@@ -37,3 +30,6 @@ MIT © Drew Stroede
 ### 5/23
 Driver: Drew Stroede
 Navigator: Genevieve DuPuy
+### 5/24
+Driver: Genevieve DuPuy
+Navigator: Drew Stroede
